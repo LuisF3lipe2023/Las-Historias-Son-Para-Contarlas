@@ -150,7 +150,7 @@ textarea::placeholder {
 
 @media (max-width: 1032px) {
     .botonMasGrande {
-        padding: 1rem 9rem;
+        padding: 1rem 4rem;
     }
 }
 
@@ -379,7 +379,7 @@ textarea::placeholder {
 
 @media (max-width: 428px) {
     .contenedor_img {
-        height: 200rem;
+        height: 149rem;
     }
 }
 
@@ -485,7 +485,7 @@ input[type="text"],
 input[type="email"],
 input[type="tel"],
 textarea {
-    width: 83%;
+    width: 43rem;
     text-indent: 1.2rem;
 }
 
@@ -495,8 +495,9 @@ textarea {
     input[type="email"],
     input[type="tel"],
     textarea {
-        width: 61%;
+        width: 69%;
     }
+
 
     .contenedor_img {
         justify-content: center;
@@ -506,6 +507,11 @@ textarea {
     .contenedor_footer__titulo__informacion p {
         margin: 0 5rem;
     }
+
+    .contenedor_footer__titulo__informacion p:last-of-type {
+        margin-top: 2rem;
+    }
+
 }
 
 
