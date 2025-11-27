@@ -312,8 +312,18 @@ textarea::placeholder {
 /* CONTENIDO SECUNDARIO */
 
 .main__tituloDos h2 {
-    margin: 0rem 9rem;
+    margin: 0rem 1rem;
     font-size: 4.3rem;
+    text-align: center;
+}
+
+@media (min-width: 765px) {
+
+    .main__tituloDos h2 {
+        margin: 0rem 9rem;
+        font-size: 4.3rem;
+        text-align: left;
+    }
 }
 
 .main__tituloDos h2:first-of-type {
@@ -341,6 +351,10 @@ textarea::placeholder {
     height: 4rem;
 }
 
+.main__items {
+    padding-left: 1rem;
+}
+
 @media (min-width: 760px) {
     .main__secundario {
         display: flex;
@@ -349,6 +363,10 @@ textarea::placeholder {
     .main__imagenDos {
         order: 1;
         max-width: 50rem;
+    }
+
+    .main__items {
+        padding-left: 1.6rem;
     }
 
     .main__itemsPrincipal {
@@ -415,7 +433,7 @@ textarea::placeholder {
 
 .contenedor_footer__titulo h2 {
     font-size: 4.9rem;
-    line-height: 5rem;
+    line-height: 6rem;
     margin: 0 10rem;
 
 }
