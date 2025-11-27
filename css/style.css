@@ -434,6 +434,10 @@ textarea::placeholder {
 }
 
 .contenedor_footer__titulo__informacion p:last-of-type {
+    font-style: var(--fuenteParrafos);
+}
+
+.contenedor_footer__titulo__informacion p:last-of-type {
     border-bottom: 1px solid var(--blanco);
     padding-bottom: 2rem;
 }
